@@ -7,8 +7,6 @@ export async function GET(request) {
   try {
     const transcript = await TranscriptAPI.getTranscript(videoId);
     const transcriptText = transcript.map((item) => item.text).join(" ");
-    console.log(transcriptText);
-
     return new Response(JSON.stringify({ transcript: transcriptText }), {
       status: 200,
     });
@@ -20,5 +18,3 @@ export async function GET(request) {
     );
   }
 }
-
-//sample link for yt video: https://www.youtube.com/watch?v=PGUdWfB8nLg&ab_channel=EnglishMotivationalVideos
