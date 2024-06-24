@@ -10,14 +10,11 @@
   },
   "dependencies": {
     "next": "14.2.4",
-    "node-fetch": "^3.3.2",
     "node-polyfill-webpack-plugin": "^4.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "react-font": "^1.2.1",
     "react-spinners": "^0.13.8",
     "react-toastify": "^10.0.5",
-    "youtube-transcript": "^1.2.1",
     "youtube-transcript-api": "^1.1.2"
   }
 }
